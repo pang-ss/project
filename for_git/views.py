@@ -4,3 +4,6 @@ class HttpRreponse(object):
 
 def index(request):
     return HttpRreponse("ok")
+
+def test(request):
+    print("dev分支代码")
